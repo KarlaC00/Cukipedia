@@ -216,7 +216,7 @@ header{
   grid-column: 3;
   grid-row: 2;
   background-color:#cb92ee;
-  border: #82624b 5px solid;
+  border: #55007f 5px solid;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -240,6 +240,7 @@ header{
 .historia {
   padding: 10px;
   background-color: #c69877;
+  border: #82624b solid 4px;
   border-radius: 10px;
 }
 
@@ -290,13 +291,9 @@ header{
 .parrafo {
   flex: 1; 
   padding: 14px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
-.parrafo2{
-  padding: 5px;
-  font-size: 17px;
-}
 
 .flecha{
   display: flex;
