@@ -1,6 +1,7 @@
 *{
   text-decoration: none;
   color: #281D10;
+  font-family: 'Quicksand';
 }
 
 body {
@@ -58,7 +59,7 @@ nav {
 
 .boton{
   background-color: rgb(241, 222, 199);
-  font-size: 28px;
+  font-size: 26px;
   width: 70%;
   padding: 8px;
   margin-bottom: 10px;
@@ -105,7 +106,7 @@ nav {
 
 .menu {
   display: none;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   background-color: #82624b;
   width: 110px;
