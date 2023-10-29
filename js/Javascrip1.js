@@ -29,9 +29,6 @@ function cambiarContenido() {
       flechaButton.textContent = '🢂'; // Cambia la flecha para avanzar
     }
   }
-  
-  
-  
-  
+
   
   
