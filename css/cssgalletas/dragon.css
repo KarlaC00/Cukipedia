@@ -68,7 +68,33 @@ nav {
   transition: ease-out 0.5s;
 }
 
+.boton1{
+  color: floralwhite;
+  background-color: #c17b41;
+  font-size: 26px;
+  width: 70%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  text-align: left;
+  border-top-right-radius: 10px; 
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  animation-name: borde;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  box-shadow: inset 0 0 0 0 #e4b995;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.5s;
+}
+
 .boton:hover{
+  box-shadow: inset 400px 0 0 0 #82624b;
+  color: floralwhite;
+}
+
+.boton1:hover{
   box-shadow: inset 400px 0 0 0 #82624b;
   color: floralwhite;
 }
