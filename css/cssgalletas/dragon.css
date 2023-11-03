@@ -243,8 +243,8 @@ header{
 .four {
   grid-column: 3;
   grid-row: 2;
-  background-color: #e7f48a;
-  border: #B5C351 5px solid;
+  background-color: #e0eb89;
+  border: #9aa349 5px solid;
   border-radius: 20px;
   display: flex;
   align-items: center;

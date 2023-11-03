@@ -1,25 +1,32 @@
-
-*{
+* {
   text-decoration: none;
   font-family: 'Quicksand';
-  
+}
+
+html {
+  height: 100%;
 }
 
 body {
-  overflow-y: hidden;
   margin: 0%;
   background: rgb(241, 222, 199);
   display: flex;
   flex-direction: column;
   color: #281D10;
+  min-height: 100%;
 }
 
 nav {
-  position: fixed; /* Fija el encabezado en la parte superior */
+  position: fixed;
   width: 22%;
   background-color: rgb(217, 173, 137);
   height: 100%;
-  overflow:hidden; 
+  overflow: hidden;
+}
+
+footer {
+  background-color: #82624b;
+  margin-top: auto;
 }
 
 .izquierda {
@@ -210,12 +217,12 @@ header{
 }
 
 .text1{
+  background-color: #c69877;
   border-radius: 30px;
   width: 40%;
   font-size: 60px;
-  padding: 15px;
+  padding: 5px;
   margin: 30px;
-  background-color: #c69877;
 }
 
 .contenedortodo {
@@ -243,8 +250,8 @@ header{
 .four {
   grid-column: 3;
   grid-row: 2;
-  background-color: #d788b5;
-  border: #964674 5px solid;
+  background-color:#ee92d4;
+  border: #7f0077 5px solid;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -254,7 +261,7 @@ header{
 .topping{
   grid-column: 1;
   grid-row: 2 ;
-  padding-bottom: 6%;
+  padding-bottom: 2%;
 }
 
 .three {
@@ -330,11 +337,6 @@ header{
 }
 
 
-
-
-footer {
-  background-color: #82624b;
-}
 
 .centrofooter{
   flex: 1;
