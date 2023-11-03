@@ -1,6 +1,7 @@
 *{
   text-decoration: none;
   color: #281D10;
+  font-family: 'Quicksand';
 }
 
 body {
@@ -62,7 +63,7 @@ nav {
 
 .boton{
   background-color: rgb(241, 222, 199);
-  font-size: 28px;
+  font-size: 26px;
   width: 70%;
   padding: 8px;
   margin-bottom: 10px;
@@ -109,7 +110,7 @@ nav {
 
 .menu {
   display: none;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   background-color: #82624b;
   width: 110px;
@@ -157,7 +158,7 @@ header{
 }
 
 .text1{
-  background-color: #82624b;
+  background-color: #c69877;
   border-radius: 30px;
   width: 40%;
   font-size: 60px;
@@ -331,13 +332,3 @@ footer{
   justify-content: center; 
   align-items: end;
 }
-
-.formulario{
-  flex: 0.8;
-  background-color: #e8cfb6;
-  border-radius: 15px;
-  margin: 25px;
-  padding: 10px;
-}
-
-
